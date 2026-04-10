@@ -18666,7 +18666,7 @@
         "supports_xhigh_reasoning_effort": false,
         "supports_minimal_reasoning_effort": true
     },
-    "openrouter/openai/gpt-5.1": {
+    "openai/gpt-5.1": {
         "cache_read_input_token_cost": 1.25e-07,
         "cache_read_input_token_cost_priority": 2.5e-07,
         "input_cost_per_token": 1.25e-06,
@@ -18943,7 +18943,7 @@
         "supports_xhigh_reasoning_effort": false,
         "supports_minimal_reasoning_effort": true
     },
-    "openrouter/openai/gpt-5.3-chat": {
+    "openai/gpt-5.3-chat": {
         "cache_read_input_token_cost": 1.75e-07,
         "cache_read_input_token_cost_priority": 3.5e-07,
         "input_cost_per_token": 1.75e-06,
@@ -19096,7 +19096,7 @@
         "supports_xhigh_reasoning_effort": true,
         "supports_minimal_reasoning_effort": true
     },
-    "openrouter/openai/gpt-5.4": {
+    "openai/gpt-5.4": {
         "cache_read_input_token_cost": 2.5e-07,
         "cache_read_input_token_cost_above_272k_tokens": 5e-07,
         "cache_read_input_token_cost_flex": 1.3e-07,
@@ -19319,7 +19319,7 @@
         "supports_xhigh_reasoning_effort": true,
         "supports_minimal_reasoning_effort": false
     },
-    "openrouter/openai/gpt-5.4-mini": {
+    "openai/gpt-5.4-mini": {
         "cache_read_input_token_cost": 7.5e-08,
         "cache_read_input_token_cost_flex": 3.75e-08,
         "cache_read_input_token_cost_batches": 3.75e-08,
@@ -19809,7 +19809,7 @@
         "supports_xhigh_reasoning_effort": false,
         "supports_minimal_reasoning_effort": true
     },
-    "openrouter/openai/gpt-5.3-codex": {
+    "openai/gpt-5.3-codex": {
         "cache_read_input_token_cost": 1.75e-07,
         "cache_read_input_token_cost_priority": 3.5e-07,
         "input_cost_per_token": 1.75e-06,
