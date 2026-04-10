@@ -18943,12 +18943,12 @@
         "supports_xhigh_reasoning_effort": false,
         "supports_minimal_reasoning_effort": true
     },
-    "openai/gpt-5.3-chat": {
+    "openrouter/openai/gpt-5.3-chat": {
         "cache_read_input_token_cost": 1.75e-07,
         "cache_read_input_token_cost_priority": 3.5e-07,
         "input_cost_per_token": 1.75e-06,
         "input_cost_per_token_priority": 3.5e-06,
-        "litellm_provider": "openai",
+        "litellm_provider": "openrouter",
         "max_input_tokens": 128000,
         "max_output_tokens": 16384,
         "max_tokens": 16384,
@@ -19319,7 +19319,7 @@
         "supports_xhigh_reasoning_effort": true,
         "supports_minimal_reasoning_effort": false
     },
-    "openai/gpt-5.4-mini": {
+    "openrouter/openai/gpt-5.4-mini": {
         "cache_read_input_token_cost": 7.5e-08,
         "cache_read_input_token_cost_flex": 3.75e-08,
         "cache_read_input_token_cost_batches": 3.75e-08,
@@ -19328,7 +19328,7 @@
         "input_cost_per_token_flex": 3.75e-07,
         "input_cost_per_token_batches": 3.75e-07,
         "input_cost_per_token_priority": 1.5e-06,
-        "litellm_provider": "openai",
+        "litellm_provider": "openrouter",
         "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
@@ -19809,12 +19809,12 @@
         "supports_xhigh_reasoning_effort": false,
         "supports_minimal_reasoning_effort": true
     },
-    "openai/gpt-5.3-codex": {
+    "openrouter/openai/gpt-5.3-codex": {
         "cache_read_input_token_cost": 1.75e-07,
         "cache_read_input_token_cost_priority": 3.5e-07,
         "input_cost_per_token": 1.75e-06,
         "input_cost_per_token_priority": 3.5e-06,
-        "litellm_provider": "openai",
+        "litellm_provider": "openrouter",
         "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
@@ -30704,6 +30704,15 @@
     "vercel_ai_gateway/openai/text-embedding-3-small": {
         "input_cost_per_token": 2e-08,
         "litellm_provider": "vercel_ai_gateway",
+        "max_input_tokens": 0,
+        "max_output_tokens": 0,
+        "max_tokens": 0,
+        "mode": "embedding",
+        "output_cost_per_token": 0.0
+    },
+    "openrouter/openai/text-embedding-3-small": {
+        "input_cost_per_token": 2e-08,
+        "litellm_provider": "openrouter",
         "max_input_tokens": 0,
         "max_output_tokens": 0,
         "max_tokens": 0,
